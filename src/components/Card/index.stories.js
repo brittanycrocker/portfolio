@@ -1,16 +1,16 @@
 import React from 'react'
-import Home from './index'
+import Card from './index'
 
 export default {
-  component: Home,
-  title: 'Home'
+  component: Card,
+  title: 'Card'
 }
 
-const Template = () => <Home />
+const Template = (args) => <Card {...args} />
 
 export const Default = Template.bind({})
 
 Default.args = {
   title: true,
-  label: 'Home'
+  label: 'Card'
 }
