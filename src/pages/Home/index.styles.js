@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { About } from '../../components/Cards'
 
 export const Container = styled.div`
     justify-content: center;
