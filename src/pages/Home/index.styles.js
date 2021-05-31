@@ -3,8 +3,8 @@ import { About } from '../../components/Cards'
 
 export const Container = styled.div`
     justify-content: center;
-    column-count: 4;
-    column-gap: 10px;
+    column-count: 3;
+    column-gap: 12px;
 
 `
 export const HeaderContainer = styled.div`
@@ -16,7 +16,7 @@ export const CardContainer = styled.div`
     margin: 0;
     display: grid;
     grid-template-rows: 1fr auto;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     break-inside: avoid;
 `
 
