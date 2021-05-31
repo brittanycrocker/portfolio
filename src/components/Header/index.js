@@ -5,7 +5,7 @@ import { theme } from '../../index.styles'
 const Header = (pages) => {
   const [clickedPage, setClickedPage] = useState('')
 
-  pages = ['Projects', 'Contact']
+  pages = ['Home', 'Projects', 'Contact']
   // TODO: map through pages and return button for each, on click visit page route
 
   // const onClick = () => {

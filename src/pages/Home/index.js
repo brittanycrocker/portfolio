@@ -1,20 +1,42 @@
 import React from 'react'
 import Header from '../../components/Header'
-import Card from '../../components/Card'
-import { Container, HeaderContainer, CardContainer } from './index.styles'
+import { About, Projects } from '../../components/Cards'
+import { Container, HeaderContainer, CardContainer, SmallCardContainer } from './index.styles'
 
 const Home = () => {
+  const text = {
+    about: "I'm Brittany a Junior Full Stack Engineer based in Australia."
+  }
+
   return (
-    <Container>
+    <div>
       <HeaderContainer>
         <Header />
       </HeaderContainer>
-      <CardContainer>
-        <Card />
-        <Card />
-        <Card />
-      </CardContainer>
-    </Container>
+      <Container>
+        <CardContainer>
+          <SmallCardContainer><About /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><Projects /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><Projects /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><About /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><About /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><About /></SmallCardContainer>
+        </CardContainer>
+        <CardContainer>
+          <SmallCardContainer><Projects /></SmallCardContainer>
+        </CardContainer>
+      </Container>
+    </div>
   )
 }
 
